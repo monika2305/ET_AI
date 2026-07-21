@@ -1,0 +1,32 @@
+source_id,source_name,source_type,target_id,target_name,target_type,relationship
+A001,11kV Power Transformer T1,asset,M001,Energization,milestone,blocks
+A002,11kV Power Transformer T2,asset,M001,Energization,milestone,blocks
+A003,Medium Voltage Switchgear SG1,asset,M001,Energization,milestone,blocks
+A004,Medium Voltage Switchgear SG2,asset,M001,Energization,milestone,blocks
+A014,Busway Distribution System,asset,M001,Energization,milestone,blocks
+A020,Earthing & Lightning Protection,asset,M001,Energization,milestone,blocks
+M001,Energization,milestone,M002,Power System Commissioning,milestone,blocks
+A005,UPS System 1MW Module A,asset,M002,Power System Commissioning,milestone,blocks
+A006,UPS System 1MW Module B,asset,M002,Power System Commissioning,milestone,blocks
+A007,Diesel Generator 2.5MW Unit 1,asset,M002,Power System Commissioning,milestone,blocks
+A008,Diesel Generator 2.5MW Unit 2,asset,M002,Power System Commissioning,milestone,blocks
+A019,PDU Units Rack Level,asset,M002,Power System Commissioning,milestone,blocks
+M002,Power System Commissioning,milestone,M003,Integrated Systems Testing,milestone,blocks
+A009,Chiller Unit CH-01,asset,M004,Cooling System Commissioning,milestone,blocks
+A010,Chiller Unit CH-02,asset,M004,Cooling System Commissioning,milestone,blocks
+A011,CRAH Unit Bank 1,asset,M004,Cooling System Commissioning,milestone,blocks
+A012,CRAH Unit Bank 2,asset,M004,Cooling System Commissioning,milestone,blocks
+A013,Cooling Tower CT-01,asset,M004,Cooling System Commissioning,milestone,blocks
+M004,Cooling System Commissioning,milestone,M003,Integrated Systems Testing,milestone,blocks
+A016,BMS Server Rack,asset,M005,IT Infrastructure Readiness,milestone,blocks
+A017,Network Core Switches,asset,M005,IT Infrastructure Readiness,milestone,blocks
+M005,IT Infrastructure Readiness,milestone,M003,Integrated Systems Testing,milestone,blocks
+A015,Fire Suppression System,asset,M003,Integrated Systems Testing,milestone,blocks
+A018,Raised Floor System,asset,M003,Integrated Systems Testing,milestone,blocks
+M003,Integrated Systems Testing,milestone,M006,Commissioning Complete,milestone,blocks
+M006,Commissioning Complete,milestone,M007,Client Handover,milestone,blocks
+M001,Energization,milestone,SYS001,Power Distribution System,system,affects
+M002,Power System Commissioning,milestone,SYS001,Power Distribution System,system,affects
+M004,Cooling System Commissioning,milestone,SYS002,Mechanical Cooling System,system,affects
+M005,IT Infrastructure Readiness,milestone,SYS003,IT & Network Infrastructure,system,affects
+M003,Integrated Systems Testing,milestone,SYS004,Building Management System,system,affects

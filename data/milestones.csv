@@ -1,0 +1,8 @@
+milestone_id,milestone_name,planned_date,forecast_date,status,critical_path
+M001,Energization,2026-02-15,2026-03-12,At Risk,Yes
+M002,Power System Commissioning,2026-03-01,2026-03-28,At Risk,Yes
+M003,Integrated Systems Testing,2026-03-20,2026-04-15,At Risk,Yes
+M004,Cooling System Commissioning,2026-02-28,2026-03-15,At Risk,Yes
+M005,IT Infrastructure Readiness,2026-02-25,2026-03-05,On Track,No
+M006,Commissioning Complete,2026-04-10,2026-05-02,At Risk,Yes
+M007,Client Handover,2026-04-25,2026-05-18,At Risk,Yes

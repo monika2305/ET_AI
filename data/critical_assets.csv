@@ -1,0 +1,21 @@
+asset_id,asset_name,category,vendor,lead_time_days,order_date,expected_delivery,actual_delivery,status,quantity,unit_cost_usd,trade
+A001,11kV Power Transformer T1,Power,Siemens Energy,180,2025-09-15,2026-03-14,,In Transit,2,850000,Electrical
+A002,11kV Power Transformer T2,Power,Siemens Energy,180,2025-09-15,2026-03-14,2026-03-10,Delivered,2,850000,Electrical
+A003,Medium Voltage Switchgear SG1,Power,Schneider Electric,120,2025-10-01,2026-01-29,,Delayed,4,210000,Electrical
+A004,Medium Voltage Switchgear SG2,Power,Schneider Electric,120,2025-10-01,2026-01-29,2026-01-25,Delivered,4,210000,Electrical
+A005,UPS System 1MW Module A,Power,Vertiv,90,2025-11-01,2026-01-30,2026-01-28,Delivered,6,180000,Electrical
+A006,UPS System 1MW Module B,Power,Vertiv,90,2025-11-10,2026-02-08,,Delayed,6,180000,Electrical
+A007,Diesel Generator 2.5MW Unit 1,Power,Cummins,150,2025-09-20,2026-02-17,2026-02-15,Delivered,3,620000,Electrical
+A008,Diesel Generator 2.5MW Unit 2,Power,Cummins,150,2025-09-20,2026-02-17,,Delayed,3,620000,Electrical
+A009,Chiller Unit CH-01,Cooling,Trane,140,2025-09-25,2026-02-12,2026-02-10,Delivered,4,310000,Mechanical
+A010,Chiller Unit CH-02,Cooling,Trane,140,2025-09-25,2026-02-12,,In Transit,4,310000,Mechanical
+A011,CRAH Unit Bank 1,Cooling,Stulz,100,2025-10-15,2026-01-23,2026-01-20,Delivered,12,45000,Mechanical
+A012,CRAH Unit Bank 2,Cooling,Stulz,100,2025-10-15,2026-01-23,,Delayed,12,45000,Mechanical
+A013,Cooling Tower CT-01,Cooling,Baltimore Aircoil,130,2025-09-18,2026-01-26,2026-01-24,Delivered,2,275000,Mechanical
+A014,Busway Distribution System,Power,Schneider Electric,80,2025-11-05,2026-01-24,,Delayed,1,165000,Electrical
+A015,Fire Suppression System,Safety,Johnson Controls,95,2025-10-20,2026-01-23,2026-01-22,Delivered,1,140000,Fire & Safety
+A016,BMS Server Rack,IT Infra,Vertiv,60,2025-12-01,2026-01-30,2026-01-29,Delivered,8,32000,IT
+A017,Network Core Switches,IT Infra,Cisco,70,2025-11-20,2026-01-29,,In Transit,16,28000,IT
+A018,Raised Floor System,Civil,Tate,90,2025-10-25,2026-01-23,2026-01-20,Delivered,1,95000,Civil
+A019,PDU Units Rack Level,Power,Vertiv,75,2025-12-05,2026-02-18,,Delayed,40,12000,Electrical
+A020,Earthing & Lightning Protection,Electrical,Local Vendor,50,2025-12-10,2026-01-29,2026-01-28,Delivered,1,58000,Electrical

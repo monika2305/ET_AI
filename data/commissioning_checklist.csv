@@ -1,0 +1,15 @@
+prerequisite_id,prerequisite_name,category,status,completion_pct,blocking_milestone,related_asset_id,notes
+P001,Transformer Installed,Power,In Progress,70,Energization,A001,T1 awaiting final mechanical alignment; T2 complete
+P002,Switchgear Installed,Power,Blocked,40,Energization,A003,SG1 delayed from vendor; SG2 installed
+P003,Busway Installed,Power,Blocked,20,Energization,A014,Delivery delayed - awaiting reschedule
+P004,Earthing System Complete,Power,Complete,100,Energization,A020,Tested and signed off
+P005,UPS Tested,Power,Blocked,35,Power System Commissioning,A006,Module A tested; Module B delayed
+P006,Generator Integrated,Power,In Progress,65,Power System Commissioning,A008,Unit 1 integrated; Unit 2 delayed
+P007,PDU Installed,Power,Blocked,10,Power System Commissioning,A019,Delivery delayed
+P008,Chiller Operational,Cooling,In Progress,75,Cooling System Commissioning,A010,CH-01 operational; CH-02 in transit
+P009,CRAH Units Operational,Cooling,Blocked,50,Cooling System Commissioning,A012,Bank 1 operational; Bank 2 delayed
+P010,Cooling Tower Operational,Cooling,Complete,100,Cooling System Commissioning,A013,Commissioned and tested
+P011,BMS Configured,IT Infra,In Progress,80,IT Infrastructure Readiness,A016,Server racks live; final config pending
+P012,Network Infrastructure Live,IT Infra,In Progress,60,IT Infrastructure Readiness,A017,Core switches in transit
+P013,Fire Suppression Tested,Safety,Complete,100,Integrated Systems Testing,A015,NOC received
+P014,Raised Floor Complete,Civil,Complete,100,Integrated Systems Testing,A018,Final inspection passed
