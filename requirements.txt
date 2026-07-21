@@ -1,7 +1,8 @@
-streamlit==1.38.0
-pandas==2.2.2
-plotly==5.24.1
-networkx==3.3
-chromadb==0.5.5
-google-generativeai==0.8.3
-scikit-learn==1.5.1
+streamlit
+pandas
+plotly
+networkx
+chromadb
+scikit-learn
+groq
+ 
